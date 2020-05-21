@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Registration form</title>
+    </head>
+   <body>
+       <h3> Registration From</h3>
+        <form action="table">
+            <table>
+                <tr>
+                    <td>
+                        Name :
+                    </td>
+                    <td>
+                        <input type="text" placeholder=" Name" name="" id="">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Password :
+                    </td>
+                    <td>
+                        <input type="text " placeholder=" password">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Gender</td>
+                    <td>
+                        <input type="radio" name="Gender" id="">Male
+                    <input type="radio" name="Gender" id="">
+                        Female</td>
+                </tr>
+                <tr>
+                    <td> Phone number</td>
+                     
+                    <td>
+                        <select>
+                        
+                            <option> 97</option>
+                            <option> 92</option>
+                            
+
+                        </select>
+                        <input type="number" name="" id="">
+                        
+                    </td>
+                </tr>
+                <tr>
+                    <td>Email</td>
+                    <td> <input type="mail" placeholder=" Email id" name="" id=""></td>
+                </tr>
+                <tr>
+                    <td> Password</td>
+                    <td> <input type="password" name="" id=""></td>
+                </tr>
+                <tr>
+                    <td>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <button> Submit</button>
+                    </td>
+                </tr>
+            </table>
+        </form>
+        <h3> Creator image</h3>
+        <img src="/HTML/image/Govinda.jpg" width="260" alt=" This is creator image">
+   </body> 
+        
+   
+</html>
